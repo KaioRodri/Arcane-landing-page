@@ -3,7 +3,6 @@
 @import url(/main.css);
 
 body {
-    z-index: 1;
     width: 100%;
     height: 100vh;
     max-width: 100%;
