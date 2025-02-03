@@ -1,7 +1,18 @@
 @import url(/background.css);
 @import url(/header.css);
 @import url(/main.css);
+@font-face {
+    font-family: 'Fonte';
+    src: url("/fonts/Arcane\ Nine.otf");
+}
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Fonte', sans-serif;
+}
 body {
     width: 100%;
     height: 100vh;
@@ -22,7 +33,4 @@ button:hover {
 
     width: 100%;
     height: 100vh;
-}
-footer {
-    z-index: 2;
 }
