@@ -7,13 +7,10 @@ section {
     padding: 10px;
 }
 section article {
-    align-items: left;
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 50%;
-    padding: 15px;
-    height: 100vh;
     font-size: 22px;
     color: rgb(151, 151, 151);
     letter-spacing: 1px;
@@ -40,24 +37,26 @@ section aside img {
     height: auto;
 
 }
-
-
-
-
+section article button{
+    flex-direction: row;
+    padding: 10px 20px;
+    margin: 3px;
+}
 
 button {
-    width: 20%;
-    padding: 10px 0;
-    border-radius: 1px;
+    width: 25%;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 300px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.3px;
     transition: 0.5s;
     transform: skew(-10deg);
+}
+button a{
+    display: block;
 }
 button:hover {
     color: white;

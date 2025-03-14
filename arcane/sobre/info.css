@@ -1,0 +1,74 @@
+/*Parte 1*/
+
+section#parte1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+}
+section#parte1 h2{
+    display: fixed;
+    justify-content: center;
+    flex-direction: column;
+    width: 78%;
+    font-size: 25px;
+    color: rgb(151, 151, 151);
+    letter-spacing: 1px;
+    margin: auto;
+    margin-left: 12px;
+} 
+section#parte1 h2 a{
+    transition: 0.5s;
+    text-decoration: none;
+    position: relative;
+}
+h2 a#jinx{
+    color: rgb(58, 58, 255);
+}
+h2 a#violet{
+    color: rgb(162, 13, 13);
+}
+
+h2 a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 3px;
+    background: rgb(139, 137, 1);
+
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s;
+}
+h2 a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.4s;
+}
+section#parte1 aside img{
+    height: 80vh;
+}
+ /*Parte 2*/
+ section#parte2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+}
+section#parte2 h2{
+    display: fixed;
+    justify-content: center;
+    flex-direction: column;
+    width: 78%;
+    font-size: 25px;
+    color: rgb(151, 151, 151);
+    letter-spacing: 1px;
+    margin: auto;
+    margin-left: 12px;
+} 
