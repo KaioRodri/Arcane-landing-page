@@ -1,6 +1,6 @@
 @media (max-width: 768px){
     * {
-        max-width: 480px;
+        max-width: 470px;
         max-height: 1000px;
     }
     header {
@@ -23,10 +23,12 @@
     }
     section {
         padding: 0px;
+        margin-left: 15px;
         max-height: 600px;
     }
     section article img {
-        width: 230px;
+        padding-left: 10px;
+        width: 200px;
  }
     section article button {
         height: auto;
