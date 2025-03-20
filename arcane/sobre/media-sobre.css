@@ -21,6 +21,11 @@
         height: 80px;
         width: auto;
     }
+    header ul.navigation {
+        margin: 0px;
+        padding: 0px;
+        gap: 8px;
+    }
 
     section#parte1 {
         text-align: left;
@@ -60,5 +65,32 @@
     #background {
         height: 100%;
         width: 100%;
+    }
+    header {
+        margin:0px;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header img {
+        height: 160px;
+        width: auto;
+    }
+    header ul.navigation {
+        margin: 0px;
+        padding: 0px;
+        gap: 20px;
+    }  
+    header a.navigation_link{
+        font-size: 24px;
+
+    }  
+    section#parte1 aside img{
+        height: 570px;
+    }
+    section#parte2 aside img{
+        height: 570px;
     }
  }
