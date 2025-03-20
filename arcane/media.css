@@ -1,7 +1,11 @@
-@media (max-width: 768px){
+@media (max-width: 767px){
     * {
         max-width: 470px;
         max-height: 1000px;
+    }
+    #background {
+        height: 100%;
+        width: 100%;
     }
     header {
         flex-direction: column;
@@ -40,4 +44,118 @@
         margin-top: 140px;
     }
 
+}
+@media (max-width: 890px){
+    * {
+        max-width: 890px;
+        max-height: 1000px;
+    }
+    #background {
+        height: 100%;
+        width: 100%;
+    }
+    header {
+        flex-direction: column;
+        justify-content: space-between;
+        width: 140px;
+        padding: 0px;        
+        padding-top: 5px;
+    }
+    
+    .navigation {
+        gap: 3px;
+        width: auto;
+    }
+    .navigation_social {
+        margin: 0px;
+    }
+    h1 {
+        font-size: 20px;
+        padding-left: 5px;
+    }
+    section {
+        padding: 0px;
+        margin-left: 15px;
+        max-height: 600px;
+    }
+    section article img {
+        padding-left: 10px;
+        width: 350px;
+ }
+    section article button {
+        height: auto;
+        width: auto;
+    }
+    section aside img {
+        width: 290px;
+        margin-left: 18px;
+        margin-top: 140px;
+    }
+
+}
+@media (max-width: 1040px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #background {
+        height: 100%;
+        width: 100%;
+    }
+
+    html, body {
+        height: 100%;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    .navigation {
+        gap: 3px;
+        width: auto;
+    }
+
+    .navigation_social {
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 20px;
+        padding-left: 5px;
+    }
+
+    section {
+        padding: 0;
+        margin-left: 15px;
+        justify-content: flex-start;
+        height: 100vh;
+        width: 100%;
+    }
+
+    section article img {
+        padding-left: 10px;
+        width: 100%;
+    }
+
+    section article button {
+        height: auto;
+        width: auto;
+    }
+
+    section aside img {
+        width: 70%;
+        margin-left: 70px;
+        margin-top: 0px;
+    }
 }
