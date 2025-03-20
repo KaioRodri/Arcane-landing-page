@@ -30,11 +30,11 @@
     }
     section {
         padding: 0px;
-        margin-left: 25px;
-        max-height: 600px;
+        margin-left: 45px;
+        max-height: 520px;
     }
     section article img {
-        padding-left: 10px;
+        padding-left: 3px;
         width: 200px;
  }
     section article button {
@@ -42,8 +42,8 @@
         width: auto;
     }
     section aside img {
-        width: 200px;
-        margin-left: 10px;
+        width: 160px;
+        margin-left: 0px;
         margin-top: 140px;
     }
 
